@@ -1,0 +1,11 @@
+root = true
+
+[*]
+dotnet_analyzer_diagnostic.severity = warning
+
+[Net6ProjectWithEditorConfigIgnore/**]
+dotnet_diagnostic.CA1303.severity = none
+dotnet_diagnostic.CA1848.severity = none
+
+[Program.cs]
+dotnet_diagnostic.ca1812.severity = none

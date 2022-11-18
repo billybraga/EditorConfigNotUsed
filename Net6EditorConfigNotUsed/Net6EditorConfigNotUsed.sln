@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net6ProjectWithEditorConfigIgnore", "Net6ProjectWithEditorConfigIgnore\Net6ProjectWithEditorConfigIgnore.csproj", "{89579C36-62E8-4216-BC44-2181FCB4BB14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{0B3064DA-8B60-4367-91CD-B6369DB38862}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net6ProjectWithoutEditorConfigIgnore", "Net6ProjectWithoutEditorConfigIgnore\Net6ProjectWithoutEditorConfigIgnore.csproj", "{985CA5E8-C49E-4C45-9FFD-BFF7A7CC3F2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89579C36-62E8-4216-BC44-2181FCB4BB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89579C36-62E8-4216-BC44-2181FCB4BB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89579C36-62E8-4216-BC44-2181FCB4BB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89579C36-62E8-4216-BC44-2181FCB4BB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985CA5E8-C49E-4C45-9FFD-BFF7A7CC3F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985CA5E8-C49E-4C45-9FFD-BFF7A7CC3F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985CA5E8-C49E-4C45-9FFD-BFF7A7CC3F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985CA5E8-C49E-4C45-9FFD-BFF7A7CC3F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

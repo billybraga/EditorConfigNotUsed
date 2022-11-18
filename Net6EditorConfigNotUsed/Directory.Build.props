@@ -1,0 +1,19 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>false</ImplicitUsings>
+        <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+        <AnalysisLevel>6</AnalysisLevel>
+        <WarningsAsErrors>true</WarningsAsErrors>
+        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <Optimize>true</Optimize>
+        <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+        <InvariantGlobalization>true</InvariantGlobalization>
+    </PropertyGroup>
+</Project>

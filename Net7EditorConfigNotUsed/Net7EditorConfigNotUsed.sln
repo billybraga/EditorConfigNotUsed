@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7ProjectWithEditorConfigIgnore", "Net7ProjectWithEditorConfigIgnore\Net7ProjectWithEditorConfigIgnore.csproj", "{16858375-4E96-4BF4-AAC2-FA89E4A420D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{F4EF50F3-8744-4F35-BA07-C518158EBBAD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7ProjectWithoutEditorConfigIgnore", "Net7ProjectWithoutEditorConfigIgnore\Net7ProjectWithoutEditorConfigIgnore.csproj", "{CA277772-E712-4890-B3E3-C80944978B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16858375-4E96-4BF4-AAC2-FA89E4A420D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16858375-4E96-4BF4-AAC2-FA89E4A420D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16858375-4E96-4BF4-AAC2-FA89E4A420D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16858375-4E96-4BF4-AAC2-FA89E4A420D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA277772-E712-4890-B3E3-C80944978B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA277772-E712-4890-B3E3-C80944978B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA277772-E712-4890-B3E3-C80944978B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA277772-E712-4890-B3E3-C80944978B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
